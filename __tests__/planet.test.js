@@ -12,6 +12,7 @@ describe('PlanetAge', () => {
   });
 
   test('should calculate users age in mercury years', () => {
-    expect(kirsten.mercuryAge()).toBe(108)
+    kirsten.mercuryAge()
+    expect(kirsten.mercuryAge).toBe(108)
   })
 })
