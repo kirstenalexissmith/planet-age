@@ -10,4 +10,8 @@ export default class PlanetAge {
   venusAge() {
     this.venusAge = parseInt(this.earthAge / .62)
   }
+
+  marsAge() {
+
+  }
 }

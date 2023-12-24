@@ -20,4 +20,8 @@ describe('PlanetAge', () => {
     kirsten.venusAge()
     expect(kirsten.venusAge).toBe(41)
   })
+
+  test('should calculate users age in mars years', () => {
+    expect(kirsten.marsAge()).toBe(13)
+  })
 })
