@@ -22,6 +22,7 @@ describe('PlanetAge', () => {
   })
 
   test('should calculate users age in mars years', () => {
-    expect(kirsten.marsAge()).toBe(13)
+    kirsten.marsAge()
+    expect(kirsten.marsAge).toBe(13)
   })
 })
