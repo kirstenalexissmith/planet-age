@@ -45,6 +45,7 @@ describe('PlanetAge', () => {
 
   test('should determine how many years until a future birthday', () => {
     expect(yearsUntil.earth).toBe(14);
-    expect(yearsUntil.mercury).toBe(58)
+    expect(yearsUntil.mercury).toBe(58);
+    expect(yearsUntil.venus).toBe(22)
   })
 })

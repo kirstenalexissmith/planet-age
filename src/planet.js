@@ -34,7 +34,8 @@ export default class PlanetAge {
     const yearsUntil = futureBdayAge - this.earthAge;
     return {
       earth: yearsUntil,
-      mercury: parseInt(yearsUntil / 0.24)
+      mercury: parseInt(yearsUntil / 0.24),
+      venus: parseInt(yearsUntil / 0.62)
     }
   }
 }
