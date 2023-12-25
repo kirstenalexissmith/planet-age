@@ -34,6 +34,6 @@ describe('PlanetAge', () => {
   })
 
   test('should determine how many years have passed since a past birthday ', () => {
-    expect(yearsPassed).toBe(7);
+    expect(yearsPassed.earth).toBe(7);
   })
 })

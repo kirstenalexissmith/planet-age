@@ -19,7 +19,10 @@ export default class PlanetAge {
     this.jupiterAge = parseInt(this.earthAge / 11.86)
   }
 
-  yearsSincePastBday() {
-
+  yearsSincePastBday(pastBdayAge) {
+    const yearsPassed = this.earthAge - pastBdayAge;
+    return {
+      earth: yearsPassed
+    }
   }
 }
