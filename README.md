@@ -1,29 +1,38 @@
-# (Application Name)
+# (Planet Age Calculator)
 
-#### (Brief Description of Application)
+#### (Calculates users age and years on different planets)
 
-#### By (Your Name Here)
+#### By (Kirsten Smith)
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _VS Code_
+* _HTML_
+* _JavaScript_
+* _CSS_
+* _NPM_
+* _Jest_
 
 ## Description
 
+This application calculates a person's age on the planets: earth, mercury, venus, mars, and jupiter. It will also calculate how many years have passed on each planet since a person's past birthday. Finally, it will calculate how many years have yet to pass until a person's future birthday.
+
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+1. Clone this repository to your desktop and open it with a text editor.
+2. Run  "npm install" through terminal to install packages.
+3. Run  "npm run build" to build the project using webpack .
+4. Run  `"pm run start" to open in a server.
+5. Run "npm run lint" to lint JS files 
+6. Run  "npm run test" to test with Jest
+
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs_
 
 ## License
+
+_[MIT](LICENSE.txt)_
+_Copyright (c) _2023_ _Kirsten Smith_
