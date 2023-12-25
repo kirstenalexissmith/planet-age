@@ -23,7 +23,8 @@ export default class PlanetAge {
     const yearsPassed = this.earthAge - pastBdayAge;
     return {
       earth: yearsPassed,
-      mercury: parseInt(yearsPassed / 0.24)
+      mercury: parseInt(yearsPassed / 0.24),
+      venus: parseInt(yearsPassed / 0.62)
     }
   }
 }

@@ -35,6 +35,7 @@ describe('PlanetAge', () => {
 
   test('should determine how many years have passed since a past birthday ', () => {
     expect(yearsPassed.earth).toBe(7);
-    expect(yearsPassed.mercury).toBe(29)
+    expect(yearsPassed.mercury).toBe(29);
+    expect(yearsPassed.venus).toBe(11);
   })
 })
