@@ -33,7 +33,8 @@ export default class PlanetAge {
   yearsUntilFutureBday(futureBdayAge) {
     const yearsUntil = futureBdayAge - this.earthAge;
     return {
-      earth: yearsUntil
+      earth: yearsUntil,
+      mercury: parseInt(yearsUntil / 0.24)
     }
   }
 }
