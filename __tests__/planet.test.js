@@ -37,16 +37,16 @@ describe('PlanetAge', () => {
 
   test('should determine how many years have passed since a past birthday ', () => {
     expect(yearsPassed.earth).toBe(7);
-    expect(yearsPassed.mercury).toBe(29);
-    expect(yearsPassed.venus).toBe(11);
+    expect(yearsPassed.mercury).toBe(29.17);
+    expect(yearsPassed.venus).toBe(11.29);
     expect(yearsPassed.mars).toBe(3.72);
     expect(yearsPassed.jupiter).toBe(0.59)
   })
 
   test('should determine how many years until a future birthday', () => {
     expect(yearsUntil.earth).toBe(14);
-    expect(yearsUntil.mercury).toBe(58);
-    expect(yearsUntil.venus).toBe(22);
+    expect(yearsUntil.mercury).toBe(58.33);
+    expect(yearsUntil.venus).toBe(22.58);
     expect(yearsUntil.mars).toBe(7.45);
     expect(yearsUntil.jupiter).toBe(1.18);
   })
