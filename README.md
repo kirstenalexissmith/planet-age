@@ -30,7 +30,7 @@ This application calculates a person's age on the planets: earth, mercury, venus
 
 ## Known Bugs
 
-* _No known bugs_
+* _"npm run start" will not open index.html in browser_
 
 ## License
 
