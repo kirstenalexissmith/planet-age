@@ -36,7 +36,8 @@ export default class PlanetAge {
       earth: yearsUntil,
       mercury: parseInt(yearsUntil / 0.24),
       venus: parseInt(yearsUntil / 0.62),
-      mars: parseFloat((yearsUntil / 1.88).toFixed(2))
+      mars: parseFloat((yearsUntil / 1.88).toFixed(2)),
+      jupiter: parseFloat((yearsUntil / 11.86).toFixed(2))
     }
   }
 }

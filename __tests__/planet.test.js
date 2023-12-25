@@ -48,5 +48,6 @@ describe('PlanetAge', () => {
     expect(yearsUntil.mercury).toBe(58);
     expect(yearsUntil.venus).toBe(22);
     expect(yearsUntil.mars).toBe(7.45);
+    expect(yearsUntil.jupiter).toBe(1.18);
   })
 })
