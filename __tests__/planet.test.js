@@ -12,21 +12,22 @@ describe('PlanetAge', () => {
   });
 
   test('should calculate users age in mercury years', () => {
-    kirsten.mercuryAge()
-    expect(kirsten.mercuryAge).toBe(108)
+    kirsten.mercuryAge();
+    expect(kirsten.mercuryAge).toBe(108);
   })
 
   test('should calculate users age in venus years', () => {
-    kirsten.venusAge()
-    expect(kirsten.venusAge).toBe(41)
+    kirsten.venusAge();
+    expect(kirsten.venusAge).toBe(41);
   })
 
   test('should calculate users age in mars years', () => {
-    kirsten.marsAge()
-    expect(kirsten.marsAge).toBe(13)
+    kirsten.marsAge();
+    expect(kirsten.marsAge).toBe(13);
   })
 
   test('should calculate users age in jupiter years', () => {
-    expect(kirsten.jupiterAge()).toBe(2)
+    kirsten.jupiterAge();
+    expect(kirsten.jupiterAge).toBe(2);
   })
 })
