@@ -37,5 +37,6 @@ describe('PlanetAge', () => {
     expect(yearsPassed.earth).toBe(7);
     expect(yearsPassed.mercury).toBe(29);
     expect(yearsPassed.venus).toBe(11);
+    expect(yearsPassed.mars).toBe(3);
   })
 })
