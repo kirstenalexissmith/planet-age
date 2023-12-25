@@ -2,9 +2,11 @@ import PlanetAge from '../src/planet.js';
 
 describe('PlanetAge', () => {
   let kirsten;
+  let yearsPassed;
 
   beforeEach(() => {
     kirsten = new PlanetAge(26);
+    yearsPassed = kirsten.yearsSincePastBday(19)
   })
 
   test('should create class object for planet ages', () => {
@@ -29,5 +31,9 @@ describe('PlanetAge', () => {
   test('should calculate users age in jupiter years', () => {
     kirsten.jupiterAge();
     expect(kirsten.jupiterAge).toBe(2);
+  })
+
+  test('should determine how many years have passed since a past birthday ', () => {
+    expect(yearsPassed).toBe(7);
   })
 })

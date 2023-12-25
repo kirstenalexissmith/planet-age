@@ -18,4 +18,8 @@ export default class PlanetAge {
   jupiterAge() {
     this.jupiterAge = parseInt(this.earthAge / 11.86)
   }
+
+  yearsSincePastBday() {
+
+  }
 }
