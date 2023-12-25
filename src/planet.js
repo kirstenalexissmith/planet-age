@@ -30,7 +30,10 @@ export default class PlanetAge {
     }
   }
 
-  yearsUntilFutureBday() {
-
+  yearsUntilFutureBday(futureBdayAge) {
+    const yearsUntil = futureBdayAge - this.earthAge;
+    return {
+      earth: yearsUntil
+    }
   }
 }
