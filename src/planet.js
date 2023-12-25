@@ -22,7 +22,8 @@ export default class PlanetAge {
   yearsSincePastBday(pastBdayAge) {
     const yearsPassed = this.earthAge - pastBdayAge;
     return {
-      earth: yearsPassed
+      earth: yearsPassed,
+      mercury: parseInt(yearsPassed / 0.24)
     }
   }
 }
