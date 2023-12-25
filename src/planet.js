@@ -29,4 +29,8 @@ export default class PlanetAge {
       jupiter: parseFloat((yearsPassed / 11.86).toFixed(2))
     }
   }
+
+  yearsUntilFutureBday() {
+
+  }
 }

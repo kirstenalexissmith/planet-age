@@ -3,10 +3,12 @@ import PlanetAge from '../src/planet.js';
 describe('PlanetAge', () => {
   let kirsten;
   let yearsPassed;
+  let yearsUntil;
 
   beforeEach(() => {
     kirsten = new PlanetAge(26);
-    yearsPassed = kirsten.yearsSincePastBday(19)
+    yearsPassed = kirsten.yearsSincePastBday(19);
+    yearsUntil = kirsten.yearsUntilFutureBday(40);
   })
 
   test('should create class object for planet ages', () => {
@@ -39,5 +41,9 @@ describe('PlanetAge', () => {
     expect(yearsPassed.venus).toBe(11);
     expect(yearsPassed.mars).toBe(3.72);
     expect(yearsPassed.jupiter).toBe(0.59)
+  })
+
+  test('should determine how many years until a future birthday', () => {
+    expect(yearsUntil).toBe(14)
   })
 })
